@@ -1,0 +1,354 @@
+.illustration {
+  width: 550px;
+  aspect-ratio: auto 550 / 184;
+  max-width: 100%;
+}
+
+// flex-direction: row | row-reverse | column | column-reverse;
+
+.flex1 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex111 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex1110 {
+  height: 300px;
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  div {
+    width: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex1111 {
+  height: 300px;
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  div {
+    width: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+  div:nth-child(1) {
+    height: 100px;
+  }
+  div:nth-child(2) {
+    height: 50px;
+  }
+  div:nth-child(3) {
+    height: 75px;
+  }
+  div:nth-child(4) {
+    height: 25px;
+  }
+}
+.flex11111 {
+  height: 300px;
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  // align-items: flex-start;
+  align-content: space-around;
+  div {
+    width: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+  // div:nth-child(1) {
+  //   height: 100px;
+  // }
+  // div:nth-child(2) {
+  //   height: 50px;
+  // }
+  // div:nth-child(3) {
+  //   height: 75px;
+  // }
+  // div:nth-child(4) {
+  //   height: 25px;
+  // }
+}
+.flex1112 {
+  height: 300px;
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  div {
+    width: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+  div:nth-child(1) {
+    height: 100px;
+  }
+  div:nth-child(2) {
+    height: 50px;
+  }
+  div:nth-child(3) {
+    height: 75px;
+  }
+  div:nth-child(4) {
+    height: 25px;
+  }
+}
+.flex1113 {
+  height: 300px;
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  div {
+    width: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+  div:nth-child(1) {
+    height: 100px;
+  }
+  div:nth-child(2) {
+    height: 50px;
+  }
+  div:nth-child(3) {
+    height: 75px;
+  }
+  div:nth-child(4) {
+    height: 25px;
+  }
+}
+.flex1114 {
+  height: 300px;
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: baseline;
+  div {
+    width: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+  div:nth-child(1) {
+    font-size: 10px;
+    line-height: 14px;
+    height: 100px;
+  }
+  div:nth-child(2) {
+    font-size: 20px;
+    line-height: 24px;
+    height: 50px;
+  }
+  div:nth-child(3) {
+    font-size: 30px;
+    line-height: 34px;
+    height: 75px;
+  }
+  div:nth-child(4) {
+    font-size: 8px;
+    line-height: 44px;
+  }
+}
+
+.flex112 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex113 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex114 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex115 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: end;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex12 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex13 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex11 {
+  border: 1px dashed blue;
+  display: inline-flex;
+  flex-direction: row;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+
+.flex2 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row-reverse;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex22 {
+  border: 1px dashed blue;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex3 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: column;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex33 {
+  border: 1px dashed blue;
+  display: inline-flex;
+  flex-direction: column;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex4 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: column-reverse;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex44 {
+  border: 1px dashed blue;
+  display: inline-flex;
+  flex-direction: column-reverse;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
+.flex5 {
+  border: 1px dashed blue;
+  display: flex;
+  flex-direction: row;
+  div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: orange;
+  }
+}
